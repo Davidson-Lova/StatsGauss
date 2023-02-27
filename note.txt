@@ -1,0 +1,70 @@
+Maths
+=====
+
+- Utiliser des résultats de base sur les v.a gaussiennes xx
+- comprendre la définition d'un PG xx
+- comprendre la décomposition de KL x
+
+Info
+====
+
+- Tests xx
+- Illustration de la complexité x
+- Timings x
+- Régarder la différence pour la comparaison du résultat x
+
+<======================================================>
+
+Exercice 1
+==========
+
+Question 3
+==========
+
+1. "générer des trajectoires approchées", soit plusieurs trajectoires. x
+- calculer la moyenne empirique x
+- calculer la variance en chaque point x
+- comparer aux données d'entrée. xx
+
+2. "Rappeler la complexité de la méthode et l’illustrer." x
++ Une courbe basée sur les temps d'exécution x
+
+Question 4
+==========
++ comparer la solution analytique avec la solution approchée x 
++ afficher la solution analytique x 
++ regarder la norme de la différence x
+
+
+Exercice 2
+==========
+
+Manipuler la librairie meshio x
+La page de la libraire x
+
+Question 3
+==========
++ pour une matrice symétrique, on peut utiliser des routines adaptées plus rapides. 
+===> Montrer sur un exemple la complexité.
+
+Question 4
+==========
+Générer des trajectoires
+L'attrait de meshio est de pouvoir stocker les résultats au format vtu et les visualiser avec un autre logiciel comme Paraview.
+En chaque point, on a une variable aléatoire qui suit une loi normale centrée réduite. 
+Dans l'hypothèse très favorable où tous les points sont indépendants, les valeurs prises par le processus gaussien sont comprises entre -3 et 3 avec probabilité 0.9973.
+
+Question 5
+==========
+On a 3 méthodes différentes pour générer destrajectoires :
+(a) génération en 2D x
+(b) génération par produit cartésien 1Dx1D x?
+(c) la solution analytique de KL x
+
+
+>>>>> On valide dont (b) avec (c), ce qui permet d'avoir confiance en la solution (b). 
+>>>>> A présent, on peut comparer (a) et (b) pour valider (a)
+
+>>>>> Complexité + illustrer
+                 + conclure sur leur intérêt respectif.
+
